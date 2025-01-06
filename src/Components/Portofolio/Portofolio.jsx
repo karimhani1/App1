@@ -1,5 +1,9 @@
 import React from 'react'
 import { useEffect } from 'react'
+import poert1 from '../../assets/poert1.png'
+import port2 from '../../assets/port2.png'
+import port3 from '../../assets/port3.png'
+
 
 export default function Portofolio() {
 
@@ -25,7 +29,7 @@ export default function Portofolio() {
             <div className="row g-5">
               <div className='col-lg-4 col-md-6'>
                 <div className='rounded-3 overflow-hidden position-relative'>
-                  <img className='w-100 rounded-3' src="./src/assets/poert1.png" alt="poert1" />
+                  <img className='w-100 rounded-3' src={poert1} alt="poert1" />
                 <div className='layer__ position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center'>
                   <i className='text-white fa-solid fa-plus fa-6x'></i>
                 </div>
@@ -33,7 +37,7 @@ export default function Portofolio() {
               </div>
               <div className='col-lg-4 col-md-6'>
                 <div className='rounded-3 overflow-hidden position-relative'>
-                  <img className='w-100 rounded-3' src="./src/assets/port2.png" alt="poert2" />
+                  <img className='w-100 rounded-3' src={port2} alt="poert2" />
                 <div className='layer__ position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center'>
                   <i className='text-white fa-solid fa-plus fa-6x'></i>
                 </div>
@@ -41,7 +45,7 @@ export default function Portofolio() {
               </div>
               <div className='col-lg-4 col-md-6'>
                 <div className='rounded-3 overflow-hidden position-relative'>
-                  <img className='w-100 rounded-3' src="./src/assets/port3.png" alt="poert3" />
+                  <img className='w-100 rounded-3' src={port3} alt="poert3" />
                 <div className='layer__ position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center'>
                   <i className='text-white fa-solid fa-plus fa-6x'></i>
                 </div>
@@ -49,7 +53,7 @@ export default function Portofolio() {
               </div>
               <div className='col-lg-4 col-md-6'>
                 <div className='rounded-3 overflow-hidden position-relative'>
-                  <img className='w-100 rounded-3' src="./src/assets/poert1.png" alt="poert4" />
+                  <img className='w-100 rounded-3' src={poert1} alt="poert4" />
                 <div className='layer__ position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center'>
                   <i className='text-white fa-solid fa-plus fa-6x'></i>
                 </div>
@@ -57,7 +61,7 @@ export default function Portofolio() {
               </div>
               <div className='col-lg-4 col-md-6'>
                 <div className='rounded-3 overflow-hidden position-relative'>
-                  <img className='w-100 rounded-3' src="./src/assets/port2.png" alt="poert5" />
+                  <img className='w-100 rounded-3' src={port2} alt="poert5" />
                 <div className='layer__ position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center'>
                   <i className='text-white fa-solid fa-plus fa-6x'></i>
                 </div>
@@ -65,7 +69,7 @@ export default function Portofolio() {
               </div>
               <div className='col-lg-4 col-md-6'>
                 <div className='rounded-3 overflow-hidden position-relative'>
-                  <img className='w-100 rounded-3' src="./src/assets/port3.png" alt="poert6" />
+                  <img className='w-100 rounded-3' src={port3} alt="poert6" />
                 <div className='layer__ position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center'>
                   <i className='text-white fa-solid fa-plus fa-6x'></i>
                 </div>
